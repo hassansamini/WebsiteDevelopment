@@ -3,4 +3,14 @@
 #create a file with .gitignore extension
 #open your local directory and git bash from there
 #using touch add index.html and other files to local directory
-#git init in local repository to make your local directory to be a git tracked folder.
+#git init in local repository to make your 
+local directory to be a git tracked folder.
+#once everything is set on the local directory 
+#go to git create a repository
+
+# then do the following to push your files from local repository to online repository
+git remote add origin https://github.com/hassansamini/WebsiteDevelopment.git
+git branch -M main
+git push -u origin main
+
+#Now check on github there should be all the files except those specified in .gitignore
