@@ -5,42 +5,140 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<style type="text/css">
-	
-	.profile li
+/*styling the form*/
+
+.contactsection
+{
+	text-align: center;
+	}
+
+	.col_span_1_3 
+	{
+	color: white;
+	}
+
+li
 	{
 list-style: none;
+padding: 3px ;
+box-sizing: border-box;
+list-style-type: none;
+display: inline-block;
 	 }	
+
+	 .profile{
+	 	background-color: #75c9b7;
+	  text-align:center;
+	 	display: inline-block;
+	 	border-width: 5px;
+	 		 width: 84%;
+
+	 }
 
 	 a:link,a:visited
 	 {
-text-decoration: none; #removing underline in links
-background-color:green;
-opacity: 0.6;
-border: 1px lightcoral ;
-color: black;
-float: left; #to transpose list from vertical to horizontal
-
+text-decoration: none;
 	 }
-		
+	 
+	 body{
+	 	background-color: floralwhite;
+	 	background-image: url("background image for body 2.jfif");
+	 			 
+	 }
+
+	.enterprise
+	{
+
+	text-decoration-color: white;
+	 width: 15%;
+	 height: 55px;
+	 display: inline-block;
+	 background-color: #75c9b7;
+    margin-bottom: -100%;
+
+	}	
+
 	</style>
 	<title>
 		
-		Business Labs Incorporated.&copy;
+		Business Labs ncorporated.&copy;
 	</title>
 
 </head>
 <body>
+	<div class="container">
+		
+
+		<div class="enterprise">
+	<p style="color: rgb(255, 255, 255);">BUSINESS&nbsp;LABS&nbsp;Inc.&copy;</p>
+
+
+	</div>
+
 <div  class="profile" >
 	<ul>
-		<li><a href="/" target="_blank">HOW WE HELP</a></li>
-		<li><a href="/" target="_blank">WHO WE ARE </a></li>
-		<li><a href="/" target="_blank">WORK WE'VE DONE</a></li>
-		<li><a href="/" target="_blank">INDUSTRY EXPERTISE</li>
-		<li><a href="/" target="_blank">INSIGHTS</li>
-		<li><a href="/" target="_blank">CONTACT</li>
+		<li><a href="/" target="_blank" style="color: rgb(255, 255, 255);">HOW WE HELP</a></li>
+		<li><a href="/" target="_blank" style="color: rgb(255, 255, 255);">WHO WE ARE </a></li>
+		<li><a href="/" target="_blank" style="color: rgb(255, 255, 255);">WORK WE'VE DONE</a></li>
+		<li><a href="/" target="_blank" style="color: rgb(255, 255, 255);">INDUSTRY EXPERTISE</a></li>
+		<li><a href="/" target="_blank" style="color: rgb(255, 255, 255);">INSIGHTS</a></li>
+		<li><a href="contactus.html" target="_blank" style="color: rgb(255, 255, 255);">CONTACT</a></li>
 
 	</ul>
 </div>
+	</div>
+
+<section class='contactsection'>
+<div class="row">
+<h2 class='package-headings'> We are happy to hear from you</h2>
+</div>
+
+<div class="row">
+
+	<form method='POST' action='#' class='contactform'>
+		
+<div class="row">
+
+		<div class='col_span_1_3'>
+		<label>Name</label>
+		</div>
+	
+		<div class='col_span_2_3'>
+		<input type="text" name="name" id="name" placeholder='Your Name' >
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class='col_span_1_3'>
+		<label>Email</label>
+		</div>
+		<div class='col_span_2_3'>
+			<input type="email" name="email" id="email" placeholder='Your Email' >
+		</div>
+	</div>
+<div class="row">
+		<div class='col_span_1_3'>
+		<label>Newsletter?</label>
+		</div>
+		<div class='col_span_2_3'>
+		<input type="checkbox" name="Newsletter" id="Newsletter" checked >
+       </div>
+</div>
+    
+  <div class="row">
+		<div class='col_span_1_3'>
+		<label>Message Us</label>
+	   </div>
+		<div class='col_span_2_3'>
+		<textarea id='messageus',name='messageus',placeholder='Message Us'> </textarea> 
+</div>
+
+</div>
+	</form>
+</div>
+</section>
 
 </body>
 </html>
+
