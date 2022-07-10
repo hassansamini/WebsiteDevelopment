@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: white;
+	color: black;
+	text-rendering:optimizeLegibility ;
+	font-size: 16px;
+	font-family: 'Work Sans','Arial','sans-serif;';
+	font-weight: 300px;
+}
+.row
+{
+max-width: 1140px;	
+margin: 0 auto;
+/*border: 2px solid red;*/
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url("img/header-img.jpg");
+	/*background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url("img/background4.jpg");*/
+	background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url("img/background5.jpg");
+
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.header-box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+h1
+{
+	font-size: 500%;
+	font-weight: 400px;
+	color:white;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 200%;
+	font-weight: 400px;
+	color: white;
+}
+/**buttons**/
+.btn:link,
+.btn:visited
+{
+text-decoration: none;
+padding: 10px 30px;
+border-radius: 200px;
+
+}
+.btn-full:link,
+.btn-full:visited
+{
+background-color: #ed07b7;
+font-color: white;
+}
+.btn-full:hover,
+.btn-full:active
+{
+background-color: #BD0592;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited
+{
+text-decoration: none;
+padding: 10px 30px;
+border-radius: 500px;
+background-color:#ed07b7 ;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active
+{
+background-color: #BD0592;
+
+}
+
+
+
+.header-text-box{
+	margin-bottom: 100px;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.main-nav li /*every li element under main nav class*/
+{
+	list-style: none;
+	display: inline-block;
+}
+
+.main-nav li  a/*every a --anchor element under main nav class*/
+{
+	text-decoration: none;
+	margin-right: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.main-nav li  a:visited,
+.main-nav li  a:link/*every a --anchor element under main nav class*/
+{
+	transition: border-bottom .2s;
+	transform-style: preserve-3d;
+}
+
+.main-nav li  a:hover,
+.main-nav li  a:active/*every a --anchor element under main nav class*/
+{
+	border-bottom:#ed07b7 solid;
+}
+.logo
+{
+
+	height: 120px;
+	width: auto;
+	float: left;
+}
+
+.about-heading
+{
+	color: black;
+	font-size: 250%;
+	font-weight: 500;
+	margin-bottom: 50px;
+
+}
+.about-para
+{
+margin-bottom: 50px;
+color: grey;
+
+
+}
+.about-box
+{
+	margin-top: 150px;
+	
+}
+.laptop-image
+{
+width: 80%;
+
+}
+.about-box:first-child
+{
+text-align:left ;
+padding: 0 5%;
+}
+
+.about-box:last-child
+{
+text-align:right ;
+}
+
+.about-section
+{
+	padding-bottom: 20px;
+}
