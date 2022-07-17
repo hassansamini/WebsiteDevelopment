@@ -304,4 +304,44 @@ background-color:dimgrey;
 .testimonials-section
 {
 text-align: center;
+background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .8)), url('img/testimonial-background.jpg');
+background-size: cover;
+color: white;
+background-attachment: fixed;
 }
+.testimonials-heading
+{
+	margin-bottom:20px ;
+	margin-top:150px ;
+	font-color: white;
+	font-size: 250%;
+}
+
+.testimonials-box
+{
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+blockquote
+{
+	
+	padding: 1%;
+	font-style: italic;
+	line-height: 145%;
+}
+
+blockquote:before { content:"\201C"; display:block;font-size: 200%; }
+
+
+
+cite{
+	display: block;
+	margin-top: 25px;
+	font-size: 90%;
+}
+
+cite img{border-radius:50% ;
+height: 15%;
+vertical-align: middle;
+margin-top: 10px;}
